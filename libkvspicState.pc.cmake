@@ -1,7 +1,7 @@
 prefix=@CMAKE_INSTALL_PREFIX@
 exec_prefix=${prefix}
 includedir=${prefix}/include
-libdir=${exec_prefix}/@CMAKE_INSTALL_LIBDIR@
+libdir=@CMAKE_INSTALL_FULL_LIBDIR@
 
 Name: KVS-libkvspicState
 Description: KVS PIC state only library
